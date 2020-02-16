@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "218587385224",
+    "firebase_url": "https://my-application-fdd2c.firebaseio.com",
+    "project_id": "my-application-fdd2c",
+    "storage_bucket": "my-application-fdd2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218587385224:android:9cf32ed5e4240cf952be3d",
+        "android_client_info": {
+          "package_name": "com.example.ciscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218587385224-7iha3katmsi15b5r5m4mqg0sbg0tcslh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ciscanner",
+            "certificate_hash": "0fc0ade244de04dee90dd9b982f8f7a1a18f4294"
+          }
+        },
+        {
+          "client_id": "218587385224-f5jr3u20n1a0vcgijlkvc16och16ff2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB5rNv_5pBqdQnXXpQ4velL0b2sLeFYqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218587385224-f5jr3u20n1a0vcgijlkvc16och16ff2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
