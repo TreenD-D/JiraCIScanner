@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
             requestInsightData(checkBoxCIType.isChecked(), encodedAuth);
 
 
+
     }
 
     public void requestInsightData(boolean isOldCI, String authData){
@@ -175,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
             public Map<String, String> getHeaders() throws AuthFailureError {
                 Map<String, String> params = new HashMap<String, String>();
                 params.put("Content-Type", "application/json");
-                //!!!temporary auth for tests!!!
+                //temp test auth
                 //String encodedString = Base64.encodeToString(String.format("%s:%s", "***", "***").getBytes(), Base64.NO_WRAP);
                 params.put("Authorization", "Basic " + authData);
                 return params;

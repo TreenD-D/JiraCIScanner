@@ -8,6 +8,9 @@ import androidx.camera.camera2.Camera2Config;
 import androidx.camera.core.CameraXConfig;
 
 public class CIScannerApp extends Application implements CameraXConfig.Provider {
+
+    public static String AUTH_KEY = "authKey";
+
     @NonNull
     @Override
     public CameraXConfig getCameraXConfig() {
